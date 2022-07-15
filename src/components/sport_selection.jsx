@@ -9,7 +9,8 @@ class SportSelection extends Component {
 
     fetch_data() {
         let api = "https://www.atfusa.org/";
-        let url = "webappTracking/JNC/FldEventMenu.json";
+        //let url = "webappTracking/JNC/FldEventMenu.json";
+        let url = "webappTracking/MainMenu.json";
 
         const reqBody = {
             "username": "Andrew",
