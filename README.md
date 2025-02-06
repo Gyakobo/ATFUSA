@@ -54,8 +54,21 @@ The application's codebase includes several key components that define its struc
     
     * File: `Select_Sport/SelectSportScreen.js`
     * Method: `fetch('https('https://api.atfusa.ort/sports'))` 
-    * Description
+    * Description: Retrieves a list of availabel sports for users to select
 
+2. Fetching Meets Data:
 
+    * File: `Meets_screen/MeetsScreen.js`
+    * Method: `fetch('https://api.atfusa.org/meets')`
+    * Description: Obtains information about upcoming or ongoing meets/events
 
+3. Fetching Individual Athlete Data:
 
+    * File: `Individual/IndividualAthleteScreen.js`
+    * Method: `fetch('https://api.atfusa.org/athletes/{athleteId}')`
+    * Description: Fetches detailed information about a specific athlete, where `{athleteId}` is replaced with the athlete's unique identifier.
+
+These requests are integral to the application's functionality, enabling it to display current data on Paralympic athletes and events.
+
+# License
+MIT
